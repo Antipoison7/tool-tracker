@@ -5,7 +5,7 @@
             echo("
             <footer>
                 <p><a href=\"./\">Search Page</a></p>
-                <p><a href=\"./\">Add Items</a></p>
+                <p><a href=\"./new.php\">Add Items</a></p>
             </footer>
             ");
         }
