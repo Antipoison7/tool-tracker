@@ -1,0 +1,18 @@
+footer{
+    padding: 0.80em 20px;
+    background-color: var(--clr-surface-a5);
+}
+
+footer p{
+    font-size: x-large;
+}
+
+footer a{
+    color: var(--clr-light-a0);
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: var(--clr-primary-a50);
+    text-decoration: underline;
+}

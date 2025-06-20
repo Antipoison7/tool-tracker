@@ -1,0 +1,50 @@
+:root{
+    /* https://colorffy.com/dark-theme-generator?colors=9908f6-121212 */
+    /** Base colors */
+    --clr-dark-a0: #000000;
+    --clr-light-a0: #ffffff;
+
+    /** Theme primary colors */
+    --clr-primary-a0: #9908f6;
+    --clr-primary-a10: #a83bf8;
+    --clr-primary-a20: #b658fa;
+    --clr-primary-a30: #c372fb;
+    --clr-primary-a40: #cf8afd;
+    --clr-primary-a50: #daa2fe;
+
+    /** Theme surface colors */
+    --clr-surface-a0: #121212;
+    --clr-surface-a5: #1f1f1f;
+    --clr-surface-a10: #282828;
+    --clr-surface-a20: #3f3f3f;
+    --clr-surface-a30: #575757;
+    --clr-surface-a40: #717171;
+    --clr-surface-a50: #8b8b8b;
+
+    /** Theme tonal surface colors */
+    --clr-surface-tonal-a0: #201625;
+    --clr-surface-tonal-a10: #352b3a;
+    --clr-surface-tonal-a20: #4b424f;
+    --clr-surface-tonal-a30: #625a66;
+    --clr-surface-tonal-a40: #7b737e;
+    --clr-surface-tonal-a50: #948e96;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--clr-surface-a0);
+    color: var(--clr-light-a0);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+    padding: 10px 20px;
+}
