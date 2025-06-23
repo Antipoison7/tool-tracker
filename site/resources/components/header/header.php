@@ -6,7 +6,9 @@
                 $svg_in = file_get_contents("./resources/images/ui/hamburger.svg");
 
                 echo("<header>
-                    {$svg_in}
+                    <button>
+                        {$svg_in}
+                    </button>
                     <h1><a href=\"./\">{$title}</a></h1>
                 </header>");
             }

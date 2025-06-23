@@ -7,8 +7,13 @@ header{
     gap: 1em;
 }
 
+button{
+    border: 0;
+    background: transparent;
+}
+
 header svg{
-    height: 2em;
+    height: 2.5em;
     color: var(--clr-light-a0);
 }
 
@@ -29,4 +34,14 @@ header a{
 header a:hover{
     color: var(--clr-primary-a50);
     text-decoration: underline;
+}
+
+/* Css for side bar */
+
+.nav-wrapper{
+
+}
+
+.sidenav{
+    
 }
