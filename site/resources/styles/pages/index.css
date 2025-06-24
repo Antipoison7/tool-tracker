@@ -113,7 +113,7 @@ input[type="radio"]:hover + label{
 }
 
 .returned-data h1{
-    color: var(--clr-primary-a30);
+    color: var(--clr-primary-a40);
 }
 
 .returned-data h4{
