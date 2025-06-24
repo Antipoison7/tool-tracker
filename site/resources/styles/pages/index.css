@@ -60,6 +60,11 @@ input[type="radio"]:hover + label{
     background-color: var(--clr-surface-a20);
 }
 
+#storage:checked + label{
+    color: var(--clr-light-a0);
+    background-color: var(--clr-surface-a20);
+}
+
 .input-box{
     display: flex;
     flex-direction: column;
@@ -80,4 +85,61 @@ input[type="radio"]:hover + label{
 
 .radio-box{
     display: flex;
+}
+
+.returned-data{
+    width: 50%;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1300px){
+    .returned-data{
+        width: 100%;
+    }
+}
+
+.returned-data .item-container{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    width: 99%;
+}
+
+.returned-data .highlight{
+    color: var(--clr-primary-a50);
+}
+
+.returned-data h1{
+    color: var(--clr-primary-a30);
+}
+
+.returned-data h4{
+    color: var(--clr-primary-a50);
+    margin-bottom: 0px;
+}
+
+.returned-data p{
+    margin-top: 5px;
+}
+
+.returned-data .item-container .left{
+    background-color: var(--clr-surface-a5);
+    padding: 1em;
+    border-radius: 1em 0 0 1em;
+}
+
+.returned-data .item-container .right{
+    background-color: var(--clr-surface-a5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    border-radius: 0 1em 1em 0;
+}
+
+.returned-data .item-container .right img{
+    width: 100%;
 }
